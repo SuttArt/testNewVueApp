@@ -1,0 +1,35 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "config": {
+    "project": "BR1_START"
+  },
+  "scripts": {
+    "dev": "node scripts/run.js dev",
+    "build": "node scripts/run.js build",
+    "preview": "node scripts/run.js preview",
+    "build:all": "node scripts/build-all.js"
+  },
+  "dependencies": {
+    "pinia": "^4.0.3",
+    "vue": "^3.5.42"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^13.0.1",
+    "css-loader": "^7.1.2",
+    "dotenv": "^17.2.3",
+    "dotenv-expand": "^12.0.3",
+    "html-webpack-plugin": "^5.6.4",
+    "mini-css-extract-plugin": "^2.9.4",
+    "sirv": "^3.0.2",
+    "vue-loader": "^17.4.2",
+    "vue-style-loader": "^4.1.3",
+    "webpack": "^5.102.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  }
+}
